@@ -1,0 +1,21 @@
+$font-size: 15px;
+$bgcolor: yellow;
+
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-size: $font-size;
+}
+
+.divclass {
+  background-color: $bgcolor;
+  border: solid 1px;
+  height: 100px;
+  width: 100px;
+}
+
+p {
+  background-color: $bgcolor;
+}

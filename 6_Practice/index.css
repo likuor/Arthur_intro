@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+  height: 70vw;
+  width: 70vw;
+  background-color: #2b3337;
+  color: white;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+span {
+  color: #9d9d9d;
+}
+
+input {
+  background-color: #9d9d9d;
+  width: 80%;
+  height: 3vw;
+  margin-bottom: 30px;
+}
+
+textarea {
+  background-color: #9d9d9d;
+  width: 80%;
+  height: 4vw;
+}
+
+form {
+  padding-bottom: 3vw;
+}
+
+.title {
+  padding: 3vw;
+}
+
+p {
+  font-weight: bold;
+  padding: 0.5vw 0;
+  font-size: 1.2rem;
+  margin-bottom: 8 px;
+}
+
+.form-content {
+  padding: 0 3vw;
+  height: 200px;
+  width: 80%;
+}
+
+.btn {
+  font-weight: bold;
+  background-color: #ff01ff;
+  color: white;
+  width: 18vw;
+  height: 4.5vw;
+  border-radius: 50px;
+  border: none;
+  font-size: 1.1rem;
+}
+
+/* section {
+  background-color: #000;
+  padding: 20px;
+}
+.message {
+  background-color: steelblue;
+  color: white;
+  height: 8vw;
+  width: 50vw;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 100px 10px auto;
+  margin: 5px 0;
+}
+
+.icon {
+  background-color: lightblue;
+  height: 5vw;
+  width: 5vw;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+.content {
+  flex-direction: column;
+  width: 90%;
+  align-self: center;
+}
+.date {
+  font-size: 0.8rem;
+}
+
+.person {
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding-left: 0.8rem;
+}
+
+.text {
+  font-size: 0.8rem;
+} */
+/*
+.main-wrapper {
+  display: flex;
+  padding-bottom: 20px;
+  padding: 1px;
+}
+
+.test {
+  background-color: lightgray;
+  padding: 0 20px 20px 0;
+}
+
+.test:last-child {
+  padding: 0 0px 20px 0;
+}
+
+.wrapper {
+  border: 1.5px solid #000;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.block {
+  background-color: gray;
+  height: 150px;
+  width: 300px;
+}
+
+.date {
+  text-align: center;
+  background-color: #fff;
+  font-size: 0.9rem;
+}
+
+.contents {
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+}
+
+.title {
+  padding: 1px;
+} */
