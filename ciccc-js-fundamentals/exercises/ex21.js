@@ -6,7 +6,10 @@ Afterwards, print out the prices array to the console.
 */
 
 var prices = [1.23, 48.11, 90.11, 8.5, 9.99, 1.0, 1.1, 67.0];
-prices.splice(0, 1, 0);
-prices.splice(2, 1, 0);
-prices.splice(6, 1, 0);
+prices[0] = 0;
+prices[2] = 0;
+prices[6] = 0;
+// prices.splice(0, 1, 0);
+// prices.splice(2, 1, 0);
+// prices.splice(6, 1, 0);
 console.log(prices);

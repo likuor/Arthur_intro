@@ -19,9 +19,7 @@ console.log(lastIndexOf([], 3), "=?", -1);
 const lastIndexOf = (array, num) => {
   let count = -1;
   for (let i = 0; i < array.length; i++) {
-    if (array[i] == num) {
-      count = i;
-    }
+    if (array[i] == num) count = i;
   }
   return count;
 };
