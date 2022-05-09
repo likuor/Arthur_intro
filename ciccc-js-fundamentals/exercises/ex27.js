@@ -35,10 +35,7 @@ const savingsAccount = {
     }
   },
   print: function printAccountSummary() {
-    console.log(
-      'Welcome! \nYour balance is currently $1000 and your interest rate is 1%.!'
-    );
+    return `Welcome! \nYour balance is currently $${this.balance} and your interest rate is ${this.interestRatePercent}%.!`;
   },
 };
-
-savingsAccount.print();
+console.log(savingsAccount.print());

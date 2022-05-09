@@ -24,3 +24,7 @@ var donuts = [
 for (let index in donuts) {
   console.log(`${donuts[index].type} cost $${donuts[index].cost} each`);
 }
+
+for (let donut of donuts) {
+  console.log(`${donut.type} cost $${donut.cost} each`);
+}
